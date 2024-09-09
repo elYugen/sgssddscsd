@@ -1,6 +1,8 @@
 # Base
 Pour écrire du php, il fait l'initialiser 
+```
 <?php MON CODE PHP ?>
+```
 
 # Tester des variables
 var_dump($variable)
@@ -42,7 +44,9 @@ Ordre d'utilisation :
 
 # $_GET, $_POST
 Variable spécial utilisé pour collecté des données depuis un formulaire en html et les renvoie dans un fichier action
-<form action="fichier.php" method="get"> 
+```
+<form action="fichier.php" method="get">
+```
 GET est relié à l'url, si on fait un formulaire avec la method get, l'url va retourner :
 http://localhost/index.php?username=dddd&password=123456
 Il est préférable d'utiliser POST
