@@ -302,7 +302,7 @@ if(isset($_POST["logout"])) {
 ?>
 ```
 
-# Hasging de mot de passe
+# Hashing de mot de passe
 Transforme les infos sensible en truc random (qihomighdùgdf1459dfgdfg)
 ```
 $password = "mdp123";
